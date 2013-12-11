@@ -1,4 +1,3 @@
-require 'spec_helper'
 require 'omniauth-oauth2'
 
 module OmniAuth
