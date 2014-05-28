@@ -1,9 +1,6 @@
-omniauth-strava
-===============
+# omniauth-strava
 
-# Omniauth::Strava
-
-TODO: Write a gem description
+Omniauth strategy for [Strava][strava].
 
 ## Installation
 
@@ -19,6 +16,12 @@ Or install it yourself as:
 
     $ gem install omniauth-strava
 
+## Configuration
+
+    Rails.application.config.middleware.use OmniAuth::Builder do
+      provider :strava, ENV['STRAVA_CLIENT_ID'], ENV['STRAVA_CLIENT_SECRET']
+    end
+
 ## Usage
 
 TODO: Write usage instructions here
@@ -31,3 +34,4 @@ TODO: Write usage instructions here
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+[strava]:https://www.strava.com/
