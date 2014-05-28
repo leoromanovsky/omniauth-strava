@@ -1,6 +1,6 @@
 # omniauth-strava
 
-Omniauth strategy for [Strava][strava].
+[Omniauth][omniauth] strategy for [Strava][strava].
 
 ## Installation
 
@@ -22,10 +22,6 @@ Or install it yourself as:
       provider :strava, ENV['STRAVA_CLIENT_ID'], ENV['STRAVA_CLIENT_SECRET']
     end
 
-## Usage
-
-TODO: Write usage instructions here
-
 ## Contributing
 
 1. Fork it
@@ -34,4 +30,10 @@ TODO: Write usage instructions here
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+## Contributors
+
+- [Leo Romanovsky](https://github.com/leoromanovsky)
+- [Oto Brglez](https://github.com/otobrglez)
+
 [strava]:https://www.strava.com/
+[omniauth]:https://github.com/intridea/omniauth
